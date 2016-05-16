@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UIDesignApp</string>
+
+    <string name="generic_server_down">time out</string>
+
+    <string name="no_internet">No Internet</string>
+
+    <string name="generic_error"> Generic Error</string>
+</resources>
