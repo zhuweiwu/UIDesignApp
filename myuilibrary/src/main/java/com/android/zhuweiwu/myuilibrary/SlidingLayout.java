@@ -20,7 +20,6 @@ public class SlidingLayout extends LinearLayout implements View.OnTouchListener 
 
     private static final int SNAP_VELOCITY = 200;
 
-
     private int screenWidth;
 
     private int leftEdge;
