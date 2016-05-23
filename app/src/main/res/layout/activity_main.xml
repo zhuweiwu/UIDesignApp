@@ -32,6 +32,12 @@
             android:layout_height="wrap_content"
             android:text="Use Volley"/>
 
+        <Button
+            android:id="@+id/id_photo_wall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photo Wall"/>
+
         </LinearLayout>
 
     </ScrollView>

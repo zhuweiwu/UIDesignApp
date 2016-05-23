@@ -20,8 +20,10 @@ public class VolleyActivity extends Activity {
     private ImageView imageView;
     private Button loadBtn;
     private EditText imageUrlTxt;
-
     private String url = "";
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

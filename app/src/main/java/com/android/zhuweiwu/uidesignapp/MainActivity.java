@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
+import com.android.zhuweiwu.uidesignapp.PhotoWall.PhotoWallActivity;
+
 /**
  * Created by zhuweiwu on 4/30/2016.
  */
@@ -51,6 +53,17 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, VolleyActivity.class);
+
+                startActivity(intent);
+            }
+        });
+
+        Button photoWallBtn = (Button) findViewById(R.id.id_photo_wall);
+
+        photoWallBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PhotoWallActivity.class);
 
                 startActivity(intent);
             }

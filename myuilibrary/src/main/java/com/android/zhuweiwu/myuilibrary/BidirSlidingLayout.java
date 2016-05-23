@@ -11,6 +11,7 @@ import android.view.WindowManager;
 import android.widget.RelativeLayout;
 
 /**
+ * two way sliding
  * Created by zhuweiwu on 4/30/2016.
  */
 public class BidirSlidingLayout extends RelativeLayout implements View.OnTouchListener {

@@ -14,6 +14,7 @@ import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 
 /**
+ * one way sliding
  * Created by zhuweiwu on 4/30/2016.
  */
 public class SlidingLayout extends LinearLayout implements View.OnTouchListener {
